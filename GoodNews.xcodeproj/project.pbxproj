@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED7D1E7F2976DA150036695E /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7D1E7E2976DA150036695E /* Webservice.swift */; };
 		EDA2D7D9296DA4BB00B3DB23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2D7D8296DA4BB00B3DB23 /* AppDelegate.swift */; };
 		EDA2D7DB296DA4BB00B3DB23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2D7DA296DA4BB00B3DB23 /* SceneDelegate.swift */; };
 		EDA2D7E0296DA4BB00B3DB23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA2D7DE296DA4BB00B3DB23 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED7D1E7E2976DA150036695E /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		EDA2D7D5296DA4BB00B3DB23 /* GoodNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA2D7D8296DA4BB00B3DB23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDA2D7DA296DA4BB00B3DB23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED7D1E7D2976D9D60036695E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ED7D1E7E2976DA150036695E /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		EDA2D7CC296DA4BB00B3DB23 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		EDA2D7D7296DA4BB00B3DB23 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				ED7D1E7D2976D9D60036695E /* Services */,
 				EDA2D7EC296DA93D00B3DB23 /* Controllers */,
 				EDA2D7D8296DA4BB00B3DB23 /* AppDelegate.swift */,
 				EDA2D7DA296DA4BB00B3DB23 /* SceneDelegate.swift */,
@@ -148,6 +159,7 @@
 			files = (
 				EDA2D7D9296DA4BB00B3DB23 /* AppDelegate.swift in Sources */,
 				EDA2D7EE296DA9B700B3DB23 /* NewsListTableViewController.swift in Sources */,
+				ED7D1E7F2976DA150036695E /* Webservice.swift in Sources */,
 				EDA2D7DB296DA4BB00B3DB23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

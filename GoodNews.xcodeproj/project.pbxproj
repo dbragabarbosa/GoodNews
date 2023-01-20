@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED210D66297ACBF9004AE720 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED210D65297ACBF9004AE720 /* ArticleViewModel.swift */; };
 		ED7D1E7F2976DA150036695E /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7D1E7E2976DA150036695E /* Webservice.swift */; };
 		ED7D1EA229782D100036695E /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7D1EA129782D100036695E /* Article.swift */; };
 		EDA2D7D9296DA4BB00B3DB23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2D7D8296DA4BB00B3DB23 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED210D65297ACBF9004AE720 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		ED7D1E7E2976DA150036695E /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		ED7D1EA129782D100036695E /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		EDA2D7D5296DA4BB00B3DB23 /* GoodNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED210D64297ACBCF004AE720 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED210D65297ACBF9004AE720 /* ArticleViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		ED7D1E7D2976D9D60036695E /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,7 @@
 		EDA2D7D7296DA4BB00B3DB23 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				ED210D64297ACBCF004AE720 /* View Models */,
 				ED7D1EA029782CE90036695E /* Models */,
 				ED7D1E7D2976D9D60036695E /* Services */,
 				EDA2D7EC296DA93D00B3DB23 /* Controllers */,
@@ -171,6 +182,7 @@
 				EDA2D7D9296DA4BB00B3DB23 /* AppDelegate.swift in Sources */,
 				EDA2D7EE296DA9B700B3DB23 /* NewsListTableViewController.swift in Sources */,
 				ED7D1E7F2976DA150036695E /* Webservice.swift in Sources */,
+				ED210D66297ACBF9004AE720 /* ArticleViewModel.swift in Sources */,
 				EDA2D7DB296DA4BB00B3DB23 /* SceneDelegate.swift in Sources */,
 				ED7D1EA229782D100036695E /* Article.swift in Sources */,
 			);

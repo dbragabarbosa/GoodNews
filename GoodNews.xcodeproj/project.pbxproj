@@ -16,6 +16,7 @@
 		EDA2D7E2296DA4BC00B3DB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA2D7E1296DA4BC00B3DB23 /* Assets.xcassets */; };
 		EDA2D7E5296DA4BC00B3DB23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA2D7E3296DA4BC00B3DB23 /* LaunchScreen.storyboard */; };
 		EDA2D7EE296DA9B700B3DB23 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2D7ED296DA9B700B3DB23 /* NewsListTableViewController.swift */; };
+		EDC7EB28297F0E3400FB24A1 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EB27297F0E3400FB24A1 /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EDA2D7E4296DA4BC00B3DB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDA2D7E6296DA4BC00B3DB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDA2D7ED296DA9B700B3DB23 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		EDC7EB27297F0E3400FB24A1 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		EDA2D7D7296DA4BB00B3DB23 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				EDC7EB26297F0E1A00FB24A1 /* Cells */,
 				ED210D64297ACBCF004AE720 /* View Models */,
 				ED7D1EA029782CE90036695E /* Models */,
 				ED7D1E7D2976D9D60036695E /* Services */,
@@ -106,6 +109,14 @@
 				EDA2D7ED296DA9B700B3DB23 /* NewsListTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EDC7EB26297F0E1A00FB24A1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EDC7EB27297F0E3400FB24A1 /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 				ED7D1E7F2976DA150036695E /* Webservice.swift in Sources */,
 				ED210D66297ACBF9004AE720 /* ArticleViewModel.swift in Sources */,
 				EDA2D7DB296DA4BB00B3DB23 /* SceneDelegate.swift in Sources */,
+				EDC7EB28297F0E3400FB24A1 /* ArticleTableViewCell.swift in Sources */,
 				ED7D1EA229782D100036695E /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
